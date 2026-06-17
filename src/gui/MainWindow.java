@@ -12,6 +12,7 @@ public class MainWindow extends JFrame {
     private final CachePanel fifoPanel;
     private final CachePanel lruPanel;
     private final CachePanel lfuPanel;
+    private final CompareTablePanel compareTable;
 
     private JTextField sequenceField;
     private JTextField cacheSizeField;
@@ -22,7 +23,7 @@ public class MainWindow extends JFrame {
     public MainWindow() {
 
         setTitle("Cache Simulator");
-        setSize(1000, 600);
+        setSize(1000, 700);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
@@ -97,6 +98,9 @@ public class MainWindow extends JFrame {
         add(cacheContainer,
                 BorderLayout.CENTER);
 
+        compareTable = new CompareTablePanel();
+        add(compareTable, BorderLayout.SOUTH);
+
         // ==========================
         // Button Logic
         // ==========================
@@ -168,6 +172,11 @@ public class MainWindow extends JFrame {
                 simulator.getLFU().getCacheContents(),
                 simulator.getLFU().getHits(),
                 simulator.getLFU().getMisses());
+
+        compareTable.update(
+                simulator.getFIFO(),
+                simulator.getLRU(),
+                simulator.getLFU());
 
         currentAccessLabel.setText(
                 "Current Access: "

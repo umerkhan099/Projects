@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec13645-9269-452a-81b9-fbaad276e8f7" name="Changes" comment="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ec13645-9269-452a-81b9-fbaad276e8f7" name="Changes" comment="Added Junit tests to the project to ensure correct functionality">
+      <change beforePath="$PROJECT_DIR$/src/gui/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/StatisticsPanel.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "JUnit.All in cache-simulator.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,9 +87,10 @@
       <recent name="D:\cache-memory-algorithms-projects\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in cache-simulator">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cache-simulator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,7 +141,7 @@
       <workItem from="1781636195425" duration="1128000" />
       <workItem from="1781691691816" duration="77000" />
       <workItem from="1781691805118" duration="3017000" />
-      <workItem from="1781695021352" duration="1198000" />
+      <workItem from="1781695021352" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Commit">
       <option name="closed" value="true" />
@@ -157,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781695248422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Junit tests to the project to ensure correct functionality">
+      <option name="closed" value="true" />
+      <created>1781696538253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781696538254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Algorithms Commit" />
     <MESSAGE value="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output" />
+    <MESSAGE value="Added Junit tests to the project to ensure correct functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Junit tests to the project to ensure correct functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
