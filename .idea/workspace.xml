@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec13645-9269-452a-81b9-fbaad276e8f7" name="Changes" comment="Algorithms Commit">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cache/CacheAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cache/FIFOCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cache/LFUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/CachePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/StatisticsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/CacheSimulator.java" afterDir="false" />
+    <list default="true" id="2ec13645-9269-452a-81b9-fbaad276e8f7" name="Changes" comment="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.All in cache-simulator.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -94,9 +86,17 @@
       <recent name="D:\cache-memory-algorithms-projects\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in cache-simulator">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in cache-simulator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache-simulator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +112,11 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in cache-simulator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -134,6 +139,7 @@
       <workItem from="1781636195425" duration="1128000" />
       <workItem from="1781691691816" duration="77000" />
       <workItem from="1781691805118" duration="3017000" />
+      <workItem from="1781695021352" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Commit">
       <option name="closed" value="true" />
@@ -143,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781636645643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output">
+      <option name="closed" value="true" />
+      <created>1781695248421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781695248422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +165,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Algorithms Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithms Commit" />
+    <MESSAGE value="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed  the src folder issue&#10;also added the java swing files i added to show a frontend output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
